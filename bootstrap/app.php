@@ -67,6 +67,18 @@ $app->singleton(
 
 /*
 |--------------------------------------------------------------------------
+| Lighthouse GraphQL
+|--------------------------------------------------------------------------
+|
+| Loads nuwave/lighthouse configuration file into the application.
+| Important: Should be loaded before service provider!
+|
+*/
+
+$app->configure("lighthouse");
+
+/*
+|--------------------------------------------------------------------------
 | Register Service Providers
 |--------------------------------------------------------------------------
 |
@@ -76,9 +88,22 @@ $app->singleton(
 |
 */
 
-// $app->register(App\Providers\AppServiceProvider::class);
+$app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+
+/*
+|--------------------------------------------------------------------------
+| Register Instance Container Path
+|--------------------------------------------------------------------------
+|
+| Next we will include the routes file so that they can all be added to
+| the application. This will provide all of the URLs the application
+| can respond to, as well as the controllers that may handle them.
+|
+*/
+
+$app->instance('path.config', app()->basePath().DIRECTORY_SEPARATOR.'config');
 
 /*
 |--------------------------------------------------------------------------
