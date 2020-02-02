@@ -9,6 +9,7 @@ type Query {
     user(id: ID @eq): User @find
 }
 
+
 type User {
     id: ID!
     name: String!
