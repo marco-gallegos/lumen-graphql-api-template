@@ -1,23 +1,36 @@
-# Lumen PHP Framework
+# Lumen Graphql Boilerplate
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+The objective of this repo is build a graphql api boilerplate/template in lumen because at the time of building this project there was no attempt at github.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+graphql is great, i use it on python and want to make it easier in php.
 
-## Official Documentation
+## Tips
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Use [insomnia](https://insomnia.rest/) for test this project, if you use linux is available in snap store.
 
-## Contributing
+```shell script
+sudo snap install insomnia 
+```
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+## Configuration
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+### Graphql Server | [Lighthouse](https://lighthouse-php.com/)
+steps to make lighthouse plugin works in lumen, inspired by [Bruno Silva on Medium](https://medium.com/@bsilva0x87/how-to-configure-laravel-lumen-with-lighthouse-php-graphql-ad63b8273321)
+
+```shell script
+mkdir ./config
+
+cp vendor/nuwave/lighthouse/config/config.php ./config/lighthouse.php
+
+# checking lighthouse file created on schema -> register
+# we need to replicate this file
+
+mkdir ./graphql
+
+cp vendor/nuwave/lighthouse/assets/default-schema.graphql ./graphql/schema.graphql
+
+```
 
 ## License
 
