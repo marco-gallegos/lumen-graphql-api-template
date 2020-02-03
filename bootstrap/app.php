@@ -99,6 +99,11 @@ if (class_exists(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class)) {
     $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 }
 
+
+if (class_exists(MLL\GraphQLPlayground\GraphQLPlaygroundServiceProvider::class)) {
+	$app->register(MLL\GraphQLPlayground\GraphQLPlaygroundServiceProvider::class);
+}
+
 /*
 |--------------------------------------------------------------------------
 | Register Instance Container Path
