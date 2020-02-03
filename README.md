@@ -14,6 +14,13 @@ Not supported by default in lumen, [a third party package](https://github.com/fl
 
 ### Graphql Playground (dev dependency)
 
+A sandbox for test your graphql api by [a third party package](https://github.com/mll-lab/laravel-graphql-playground).
+
+Only need to acces to your development server on route /graphql-playground example http://localhost:8000/graphql-playground
+
+
+### CORS
+
 To Do
 
 ### JWT Auth
@@ -48,6 +55,25 @@ mkdir ./graphql
 
 cp vendor/nuwave/lighthouse/assets/default-schema.graphql ./graphql/schema.graphql
 
+```
+
+### Graphql Playground
+
+```shellscript
+cp vendor/mll-lab/laravel-graphql-playground/src/graphql-playground.php config/graphql-playground.php
+```
+
+```php
+# adding this to app.php
+/*
+|--------------------------------------------------------------------------
+| GraphQL Playground
+|--------------------------------------------------------------------------
+|
+| Loads mll-lab/laravel-graphql-playground configuration file into the application.
+|
+*/
+$app->configure('graphql-playground');
 ```
 
 ## License

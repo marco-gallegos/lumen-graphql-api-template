@@ -79,6 +79,16 @@ $app->configure("lighthouse");
 
 /*
 |--------------------------------------------------------------------------
+| GraphQL Playground
+|--------------------------------------------------------------------------
+|
+| Loads mll-lab/laravel-graphql-playground configuration file into the application.
+|
+*/
+$app->configure('graphql-playground');
+
+/*
+|--------------------------------------------------------------------------
 | Register Service Providers
 |--------------------------------------------------------------------------
 |
