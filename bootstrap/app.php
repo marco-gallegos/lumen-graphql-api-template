@@ -67,9 +67,9 @@ $app->middleware([
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
 
-// $app->routeMiddleware([
-//     'auth' => App\Http\Middleware\Authenticate::class,
-// ]);
+$app->routeMiddleware([
+     'auth' => App\Http\Middleware\Authenticate::class,
+]);
 
 /*
 |--------------------------------------------------------------------------
@@ -111,6 +111,10 @@ $app->register(App\Providers\AuthServiceProvider::class);
 /**
  * packages service providers
  */
+if (class_exists(Tymon\JWTAuth\Providers\LumenServiceProvider::class)) {
+    $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
+}
+
 if (class_exists(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class)) {
     $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 }
