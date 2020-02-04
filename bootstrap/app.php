@@ -111,9 +111,8 @@ $app->register(App\Providers\AuthServiceProvider::class);
 /**
  * packages service providers
  */
-if (class_exists(Tymon\JWTAuth\Providers\LumenServiceProvider::class)) {
-    $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
-}
+
+$app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
 
 if (class_exists(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class)) {
     $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
@@ -152,6 +151,7 @@ $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
     require __DIR__.'/../routes/web.php';
+    //require __DIR__.'/../routes/api.php';
 });
 
 return $app;
