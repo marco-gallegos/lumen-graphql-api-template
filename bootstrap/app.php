@@ -57,6 +57,12 @@ $app->singleton(
 |
 */
 
+$app->middleware([
+    # middleware for cors on all request
+    palanik\lumen\Middleware\LumenCors::class
+    #App\Http\Middleware\ExampleMiddleware::class
+]);
+
 // $app->middleware([
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
