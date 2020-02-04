@@ -4,6 +4,22 @@ The objective of this repo is build a graphql api boilerplate/template in lumen 
 
 graphql is great, i use it on python and want to make it easier in php.
 
+
+## How To Start / Setup
+
+1 -  clone the repo with your api/project name
+
+```shellscript
+git clone https://github.com/marco-gallegos/lumen-graphql-template "your project name"
+cd "your project name"
+composer install
+cp .env.example .env
+```
+
+2 - Nothing to do, serve and let's code. don't forget visit the /graphql-playground route
+
+
+
 ## Main Features
 
 Some cool additional features in this template/boilerplate
@@ -21,7 +37,7 @@ Only need to acces to your development server on route /graphql-playground examp
 
 ### CORS
 
-To Do
+[Third party package](https://github.com/palanik/lumen-cors) preconfigured to add CORS headers to every request.
 
 ### JWT Auth
 
