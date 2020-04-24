@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4fff5f868e233f2bb03d8b654ebc1aa",
+    "content-hash": "4b5ae081a9415ea4494264eee5c7bb81",
     "packages": [
+        {
+            "name": "dnoegel/php-xdg-base-dir",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnoegel/php-xdg-base-dir.git",
+                "reference": "8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnoegel/php-xdg-base-dir/zipball/8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd",
+                "reference": "8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.0|~6.0|~5.0|~4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "XdgBaseDir\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "implementation of xdg base directory specification for php",
+            "time": "2019-12-04T15:06:13+00:00"
+        },
         {
             "name": "doctrine/inflector",
             "version": "1.3.1",
@@ -249,7 +282,7 @@
         },
         {
             "name": "illuminate/auth",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/auth.git",
@@ -300,7 +333,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -351,7 +384,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -396,7 +429,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -447,7 +480,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -491,7 +524,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -545,7 +578,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -589,7 +622,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -633,16 +666,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "9063a958e72edf58d23007b39e482e8d28cb84db"
+                "reference": "9fadf31fb4028a780184b863f335d966f333c44f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/9063a958e72edf58d23007b39e482e8d28cb84db",
-                "reference": "9063a958e72edf58d23007b39e482e8d28cb84db",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/9fadf31fb4028a780184b863f335d966f333c44f",
+                "reference": "9fadf31fb4028a780184b863f335d966f333c44f",
                 "shasum": ""
             },
             "require": {
@@ -690,11 +723,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-04-14T00:02:07+00:00"
+            "time": "2020-04-21T18:52:19+00:00"
         },
         {
             "name": "illuminate/encryption",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/encryption.git",
@@ -741,7 +774,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -786,7 +819,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -838,7 +871,7 @@
         },
         {
             "name": "illuminate/hashing",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -882,7 +915,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -932,7 +965,7 @@
         },
         {
             "name": "illuminate/log",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -977,7 +1010,7 @@
         },
         {
             "name": "illuminate/pagination",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pagination.git",
@@ -1022,7 +1055,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1067,7 +1100,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -1127,7 +1160,7 @@
         },
         {
             "name": "illuminate/routing",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/routing.git",
@@ -1185,7 +1218,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1236,16 +1269,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "6955d0c254ae55ede96be71309b5fb09693441cd"
+                "reference": "38cb5e56f30e6ecff3e88a0f3031139a0f6740d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/6955d0c254ae55ede96be71309b5fb09693441cd",
-                "reference": "6955d0c254ae55ede96be71309b5fb09693441cd",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/38cb5e56f30e6ecff3e88a0f3031139a0f6740d8",
+                "reference": "38cb5e56f30e6ecff3e88a0f3031139a0f6740d8",
                 "shasum": ""
             },
             "require": {
@@ -1293,11 +1326,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-03-24T20:01:29+00:00"
+            "time": "2020-04-21T13:29:27+00:00"
         },
         {
             "name": "illuminate/translation",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -1343,7 +1376,7 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
@@ -1395,7 +1428,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.18.8",
+            "version": "v6.18.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -1527,6 +1560,70 @@
                 "lumen"
             ],
             "time": "2020-03-13T20:24:43+00:00"
+        },
+        {
+            "name": "laravel/tinker",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/tinker.git",
+                "reference": "cde90a7335a2130a4488beb68f4b2141869241db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/cde90a7335a2130a4488beb68f4b2141869241db",
+                "reference": "cde90a7335a2130a4488beb68f4b2141869241db",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^6.0|^7.0|^8.0",
+                "illuminate/contracts": "^6.0|^7.0|^8.0",
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.2",
+                "psy/psysh": "^0.10.3",
+                "symfony/var-dumper": "^4.3|^5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.1",
+                "phpunit/phpunit": "^8.4|^9.0"
+            },
+            "suggest": {
+                "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Tinker\\TinkerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Tinker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Powerful REPL for the Laravel framework.",
+            "keywords": [
+                "REPL",
+                "Tinker",
+                "laravel",
+                "psysh"
+            ],
+            "time": "2020-04-07T15:01:31+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -1845,27 +1942,83 @@
             "time": "2018-02-13T20:26:39+00:00"
         },
         {
-            "name": "nuwave/lighthouse",
-            "version": "4.11.0",
+            "name": "nikic/php-parser",
+            "version": "v4.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nuwave/lighthouse.git",
-                "reference": "7d7941fff14e9ff21c2bca6cd6f4f0c951b67cd6"
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nuwave/lighthouse/zipball/7d7941fff14e9ff21c2bca6cd6f4f0c951b67cd6",
-                "reference": "7d7941fff14e9ff21c2bca6cd6f4f0c951b67cd6",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120",
+                "reference": "bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ircmaxell/php-yacc": "0.0.5",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2020-04-10T16:34:50+00:00"
+        },
+        {
+            "name": "nuwave/lighthouse",
+            "version": "v4.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nuwave/lighthouse.git",
+                "reference": "e28ab39c205161dd4b5c1087634f995e8dead4d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nuwave/lighthouse/zipball/e28ab39c205161dd4b5c1087634f995e8dead4d3",
+                "reference": "e28ab39c205161dd4b5c1087634f995e8dead4d3",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+                "illuminate/auth": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
+                "illuminate/bus": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/contracts": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/http": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/pagination": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
+                "illuminate/queue": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/routing": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/support": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
                 "illuminate/validation": "5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
+                "nesbot/carbon": "^1.26.0 || ^2.0",
                 "php": ">= 7.1",
                 "webonyx/graphql-php": "^0.13.2"
             },
@@ -1897,8 +2050,8 @@
                 "laravel": {
                     "providers": [
                         "Nuwave\\Lighthouse\\LighthouseServiceProvider",
-                        "Nuwave\\Lighthouse\\SoftDeletes\\SoftDeletesServiceProvider",
-                        "Nuwave\\Lighthouse\\OrderBy\\OrderByServiceProvider"
+                        "Nuwave\\Lighthouse\\OrderBy\\OrderByServiceProvider",
+                        "Nuwave\\Lighthouse\\SoftDeletes\\SoftDeletesServiceProvider"
                     ],
                     "aliases": {
                         "graphql": "Nuwave\\Lighthouse\\GraphQL"
@@ -1934,7 +2087,25 @@
                 "laravel",
                 "laravel-graphql"
             ],
-            "time": "2020-03-25T10:54:59+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/spawnia",
+                    "type": "github"
+                },
+                {
+                    "url": "https://issuehunt.io/r/nuwave/lighthouse",
+                    "type": "issuehunt"
+                },
+                {
+                    "url": "https://www.patreon.com/lighthouse_php",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/nuwave/lighthouse",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-23T06:55:49+00:00"
         },
         {
             "name": "opis/closure",
@@ -2237,6 +2408,78 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "psy/psysh",
+            "version": "v0.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "2bde2fa03e05dff0aee834598b951d6fc7c6fe02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2bde2fa03e05dff0aee834598b951d6fc7c6fe02",
+                "reference": "2bde2fa03e05dff0aee834598b951d6fc7c6fe02",
+                "shasum": ""
+            },
+            "require": {
+                "dnoegel/php-xdg-base-dir": "0.1.*",
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "nikic/php-parser": "~4.0|~3.0|~2.0|~1.3",
+                "php": "^8.0 || ^7.0 || ^5.5.9",
+                "symfony/console": "~5.0|~4.0|~3.0|^2.4.2|~2.3.10",
+                "symfony/var-dumper": "~5.0|~4.0|~3.0|~2.7"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.2",
+                "hoa/console": "3.17.*"
+            },
+            "suggest": {
+                "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
+                "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
+                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
+                "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
+            },
+            "bin": [
+                "bin/psysh"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.10.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Psy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "An interactive shell for modern PHP.",
+            "homepage": "http://psysh.org",
+            "keywords": [
+                "REPL",
+                "console",
+                "interactive",
+                "shell"
+            ],
+            "time": "2020-04-07T06:44:48+00:00"
         },
         {
             "name": "symfony/console",
@@ -3998,39 +4241,6 @@
             "time": "2020-04-12T22:02:42+00:00"
         },
         {
-            "name": "dnoegel/php-xdg-base-dir",
-            "version": "v0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dnoegel/php-xdg-base-dir.git",
-                "reference": "8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dnoegel/php-xdg-base-dir/zipball/8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd",
-                "reference": "8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~7.0|~6.0|~5.0|~4.8.35"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "XdgBaseDir\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "implementation of xdg base directory specification for php",
-            "time": "2019-12-04T15:06:13+00:00"
-        },
-        {
             "name": "doctrine/instantiator",
             "version": "1.3.0",
             "source": {
@@ -4390,58 +4600,6 @@
                 "object graph"
             ],
             "time": "2020-01-17T21:11:47+00:00"
-        },
-        {
-            "name": "nikic/php-parser",
-            "version": "v4.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120",
-                "reference": "bd43ec7152eaaab3bd8c6d0aa95ceeb1df8ee120",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "ircmaxell/php-yacc": "0.0.5",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
-            },
-            "bin": [
-                "bin/php-parse"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PhpParser\\": "lib/PhpParser"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov"
-                }
-            ],
-            "description": "A PHP parser written in PHP",
-            "keywords": [
-                "parser",
-                "php"
-            ],
-            "time": "2020-04-10T16:34:50+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -5013,16 +5171,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.3",
+            "version": "8.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "67750516bc02f300e2742fed2f50177f8f37bedf"
+                "reference": "8474e22d7d642f665084ba5ec780626cbd1efd23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/67750516bc02f300e2742fed2f50177f8f37bedf",
-                "reference": "67750516bc02f300e2742fed2f50177f8f37bedf",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8474e22d7d642f665084ba5ec780626cbd1efd23",
+                "reference": "8474e22d7d642f665084ba5ec780626cbd1efd23",
                 "shasum": ""
             },
             "require": {
@@ -5092,79 +5250,17 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-03-31T08:52:04+00:00"
-        },
-        {
-            "name": "psy/psysh",
-            "version": "v0.10.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "2bde2fa03e05dff0aee834598b951d6fc7c6fe02"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2bde2fa03e05dff0aee834598b951d6fc7c6fe02",
-                "reference": "2bde2fa03e05dff0aee834598b951d6fc7c6fe02",
-                "shasum": ""
-            },
-            "require": {
-                "dnoegel/php-xdg-base-dir": "0.1.*",
-                "ext-json": "*",
-                "ext-tokenizer": "*",
-                "nikic/php-parser": "~4.0|~3.0|~2.0|~1.3",
-                "php": "^8.0 || ^7.0 || ^5.5.9",
-                "symfony/console": "~5.0|~4.0|~3.0|^2.4.2|~2.3.10",
-                "symfony/var-dumper": "~5.0|~4.0|~3.0|~2.7"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.2",
-                "hoa/console": "3.17.*"
-            },
-            "suggest": {
-                "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
-                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-                "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
-                "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
-            },
-            "bin": [
-                "bin/psysh"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.10.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
-                "psr-4": {
-                    "Psy\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
+            "funding": [
                 {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
+                    "url": "https://phpunit.de/donate.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
                 }
             ],
-            "description": "An interactive shell for modern PHP.",
-            "homepage": "http://psysh.org",
-            "keywords": [
-                "REPL",
-                "console",
-                "interactive",
-                "shell"
-            ],
-            "time": "2020-04-07T06:44:48+00:00"
+            "time": "2020-04-23T04:39:42+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
